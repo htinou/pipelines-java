@@ -39,9 +39,9 @@ steps:
 - task: SqlAzureDacpacDeployment@1
   displayName: Execute Azure SQL : DacpacTask
   inputs:
-    azureSubscription: '<Azure service connection>'
-    ServerName: '<Database server name>'
-    DatabaseName: '<Database name>'
-    SqlUsername: '<SQL user name>'
-    SqlPassword: '<SQL user password>'
-    DacpacFile: '<Location of Dacpac file in $(Build.SourcesDirectory) after compilation>'
+    azureSubscription: 'Azure service connection'
+    ServerName: 'etienne.database.windows.net'
+    DatabaseName: 'bddTest'
+    SqlUsername: 'egrosse@etienne'
+    SqlPassword: 'Mfs4SsmJ;'
+    DacpacFile: 'Location of Dacpac file in $(Build.SourcesDirectory) after compilation'
