@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/etiennegrosse/TestAzure/_apis/build/status/htinou.pipelines-java?branchName=master)](https://dev.azure.com/etiennegrosse/TestAzure/_build/latest?definitionId=2&branchName=master)
 
 # Contributing
 
